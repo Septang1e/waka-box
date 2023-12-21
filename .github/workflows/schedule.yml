@@ -9,6 +9,7 @@ jobs:
     name: update
     runs-on: ubuntu-latest
     steps:
+      - name: Update gist
       - uses: Septang1e/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
