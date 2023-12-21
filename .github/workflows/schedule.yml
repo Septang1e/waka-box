@@ -13,6 +13,6 @@ jobs:
       - name: Update gist
         uses: Septang1e/waka-box@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 0fa52bc18220f0bacd22cf30fbaf777d
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           WAKATIME_API_KEY:  ${{ secrets.WAKATIME_API_KEY }}
