@@ -14,5 +14,5 @@ jobs:
         uses: Septang1e/waka-box@master
         env:
           GIST_ID:  0fa52bc18220f0bacd22cf30fbaf777d
-          GH_TOKEN:  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
-          WAKATIME_API_KEY:  waka_f82e5907-5335-45c2-9205-5ef5decdcafe
+          GH_TOKEN:  ${{ secrets.GH_TOKEN }}
+          WAKATIME_API_KEY:  ${{ secrets.WAKATIME_API_KEY }}
